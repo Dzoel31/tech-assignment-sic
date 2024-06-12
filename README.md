@@ -1,32 +1,12 @@
-# Tech Assignment Week 3
+# Repository for Tech Assignment Samsung Inovation Campus
 
-## Introduction
-
-```plain
-Name: Dzulfikri Adjmal
-Group: 20
+```plaintext
+name: Dzulfikri Adjmal
+group: 20
 ```
 
-## Server
+## Task 1
 
-- Method
-  - `GET`: To send the data to the dashboard
-  - `POST`: To receive the data from the sensor
-
-Run the server with the following command:
-
-```bash
-py ./server.py
-```
-
-## Dashboard (To see the data)
-
-- Library:
-  - `streamlit`
-  - `pandas`
-
-Run the dashboard with the following command:
-
-```bash
-streamlit run ./dashboard.py
-```
+- [x] Create `.ino` file to retrieve data from sensor and send it to the local server using HTTP REST API (POST method).
+- [x] Create a local server to receive data from the sensor.
+- [x] Physical photo of the ESP32 circuit.

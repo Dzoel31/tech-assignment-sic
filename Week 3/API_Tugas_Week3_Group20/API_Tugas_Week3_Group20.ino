@@ -4,9 +4,9 @@
 #include "DHT.h"
 #define MQ_PIN 34
 
-const char* ssid = "FIK-Hotspot";
-const char* password = "FIK22-23!";
-const char* serverName = "http://172.23.22.75:8000/create";
+const char* ssid = "<SSID>";
+const char* password = "<PASSWORD>";
+const char* serverName = "http://<ipv4 address>:8000/create";
 
 void setup() {
   Serial.begin(115200);

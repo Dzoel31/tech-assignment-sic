@@ -29,4 +29,4 @@ def post_data():
     return f"{data['name']} berhasil mengirimkan data {data['value']}", 201
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000, host="172.23.22.75")
+    app.run(debug=True, port=8000, host="<ipv4 address>")

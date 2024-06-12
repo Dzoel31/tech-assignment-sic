@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # Define the base URL of your API
-BASE_URL = "http://172.23.13.33:8000"
+BASE_URL = "http://<ipv4 address>:8000"
 
 # Define the API endpoints
 GET_ENDPOINT = "/data"
